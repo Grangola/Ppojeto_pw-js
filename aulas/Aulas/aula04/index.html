@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 4 - Formulário em JS</title>
+    <link rel="stylesheet" href="./estilo.css">
+</head>
+<body>
+    <h1>Formulário em JavaScript</h1>
+    <hr>
+    <form id="linhaForm">
+        <input type="text" name="nome" id="nome" placeholder="Digite Seu Nome" required>
+        <br><br>
+        <input type="number" name="idade" id="idade" placeholder="Digite Sua Idade" required>
+        <br><br>
+        <input type="date" name="admissao" id="admissao" required>
+        <br><br>
+        <input type="date" name="demissao" id="demissao">
+        <br><br>
+        <button type="button" onclick="adicionarLinha()">Adicionar</button>
+    </form>
+    <br><br>
+    <table id="tabelaDados">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Admissão</th>
+                <th>Demissão</th>
+            </tr>
+        </thead>
+    </table>
+    <script src="./calculo.js"></script>
+</body>
+</html>
