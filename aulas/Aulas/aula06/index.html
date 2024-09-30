@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Formulário em JavaScript</h1>
+    <hr>
+    <form id="linhaForm">
+        <input type="text" name="ID" id="id" placeholder="Digite o ID do produto" required>
+        <br><br>
+        <input type="text" name="Marca" id="marca" placeholder="Digite a marca do produto" required>
+        <br><br>
+        <input type="text" name="Segmento" id="segmento" placeholder="Digite o segmento do produto" required>
+        <br><br>
+        <input type="number" name="Valor da Venda" placeholder="Digite o preço do produto" id="valor">
+        <br><br>
+        <input type="date" name="Data da Venda" id="data">
+        <br><br>
+        <button type="button" onclick="adicionarLinha()">Adicionar</button>
+    </form>
+    <br><br>
+    <table id="tabelaDados">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Marca</th>
+                <th>Segmento</th>
+                <th>Valor da Venda</th>
+                <th>Data da Venda</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <script src="./formulario.js"></script>
+    
+</body>
+</html>
